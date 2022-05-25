@@ -17,8 +17,90 @@
 <body>
 
 
+    <header class="container-fluid mb-4 pb-5" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  Influence-gear
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ps-3">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item ps-3 pe-5">
+                    <a class="nav-link" href="contact">Contact</a>
+                  </li>
+                </ul>
+                <!-- Button trigger modal -->
+                  <button class="btn btn-dark rounded-pill px-3" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up</button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="exampleModalLabel">Sign Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                                </div>
+                              </div>
+                              <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-extra-color">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- navigation section done -->
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 py-5">
+                    <h1 class="fs-1 fw-bolder">Start your Journey as <br>
+                        <span class="text-danger">Influencer</span></h1>
+                    <span class="fs-6 fw-light py-3 w-75 d-sm-block text-justify">An ecommerce website is a facilitating tool that has to inform, support and demonstrate how your products can meet all the organization's needs through content.Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service</span> 
+                    <div class="py-3">
+                        <button class="btn btn-danger px-4 rounded-pill">Preebook now</button> 
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 py-5">
+                    <img class="img-fluid pb-5" src="./images/main-camera.png" alt="header pic">
+                </div>
+            </div>
+        </section>
 
-    
+    </header>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+    "></script>
     
 </body>
 </html>
